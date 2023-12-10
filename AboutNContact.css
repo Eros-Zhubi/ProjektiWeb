@@ -97,11 +97,12 @@ header {
 }
 
 .footer {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: space-around;
-    background-color: #d8cfcf;
-    padding: 10px;
-    text-align: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  background-color: black;
+  padding: 10px;
+  text-align: center;
+  color: white;
 }
