@@ -1,0 +1,39 @@
+<!--Please dissregard the comments, theyre there for perseritje purposes-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validation</title>
+    <link rel="stylesheet" href="./style.css">
+    <script defer src="./index.js"></script>
+</head>
+<body class="gradient">
+    <div class="container">
+        <form id="form" action="/">
+            <h1>Registration</h1>
+            <div class="input-control"> <!--input control i qet errorar edhe e stajllim-->
+                <label for="username">Username</label>
+                <input id="username" placeholder="Enter username" name="username" type="text">
+                <div class="error"></div> <!--errors SPECIFIC for this field-->
+            </div>
+            <div class="input-control">
+                <label for="email">Email</label>
+                <input id="email" placeholder="Enter Email" name="email" type="text">
+                <div class="error"></div>
+            </div>
+            <div class="input-control">
+                <label for="pwd">Password</label>
+                <input id="pwd" placeholder="Enter Password" name="pwd" type="password">
+                <div class="error"></div>
+            </div>
+            <div class="input-control">
+                <label for="pwdRepeat">Confirm Password</label>
+                <input id="pwdRepeat" placeholder="Enter Password again" name="pwdRepeat" type="password">
+                <div class="error"></div>
+            </div>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</body>
+</html>
