@@ -7,10 +7,15 @@ body {
   background: linear-gradient(to right,rgb(167, 153, 73,1)-10%, rgb(27,27,29) 15%,rgb(27,27,29) 85%, rgb(167, 153, 73) 110%);
 }
 
-.header {
-  background-color: #d8cfcf;
-  padding: 20px;
-  text-align: center;
+header {
+  background-color:black;
+  padding: 15px;
+}
+
+.headeri {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .topnav {
