@@ -3,6 +3,12 @@
   background: linear-gradient(to right,rgb(167, 153, 73,1)-10%, rgb(27,27,29) 15%,rgb(27,27,29) 85%, rgb(167, 153, 73) 110%);
 }
 
+body {
+  margin: 0;
+  color: white;
+}
+
+
 @import url('https://fonts.googleapis.com/css2?family=Arsenal&family=Cormorant:wght@700&display=swap');
 html {
     -webkit-box-sizing: border-box;
@@ -10,15 +16,6 @@ html {
     box-sizing: border-box;
     margin: 0;
     overflow-x: hidden;
-}
-
-
-*, *:before, :after {
-    -webkit-box-sizing: inherit;
-    -moz-box-sizing: inherit;
-    box-sizing: inherit;
-    margin: inherit;
-    overflow-x: inherit;
 }
 
 header {
