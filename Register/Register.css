@@ -113,3 +113,13 @@ width: 100%;
   font-size: 9px;
   height: 13px;
 }
+.footer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  background-color: black;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
